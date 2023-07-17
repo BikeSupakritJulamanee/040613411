@@ -1,0 +1,72 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+nav {
+    margin-top: 5%;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.main-title:hover {
+    font-size: 76px;
+    cursor: pointer;
+}
+
+.main-title {
+    font-size: 72px;
+}
+
+.title {
+    margin-top: 3%;
+    font-size: 48px;
+}
+
+.eng-title {
+    color: #404040;
+}
+
+.source {
+    text-align: right;
+    margin-top: 5%;
+}
+
+.session-1-title {
+    font-size: 30px;
+}
+
+.session-1-detail {
+    padding: 7%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2%;
+}
+
+.session-1-img {
+    border-radius: 2%;
+    height: 800px;
+    width: auto;
+}
+
+.catalog {
+    /* font-weight: bold; */
+    margin-top: 5%;
+    font-size: 100%;
+}
+
+.catalog img {
+    border-radius: 5%;
+}
+
+footer {
+    min-height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    background-color: #cccccc;
+}
