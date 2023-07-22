@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <form action="2.2.html">
+            <h3>เเบบฟอร์มจองทัวร์</h3>
+            <fieldset>
+                <legend>ข้อมูลทั่วไป</legend>
+                ชื่อ-สกุล: <br>
+                <input type="text" placeholder="กรอกชื่อ-สกุล" required > * <br>
+                Email: <br>
+                <input type="email" required > * <br>
+                โทรศัพท์: <br>
+                <input type="text" value="+66" required > * <br>
+                ที่อยู่: <br>
+                <textarea name="" id="" cols="30" rows="5"></textarea> <br>
+                รหัสไปรษณี: <br>
+                <input type="text" pattern="[0-9]{5}" style="width: 50px;"> <br>
+                รูปผู้จอง: <input type="file">
+            </fieldset>
+
+            <Fieldset>
+                <legend>ข้อมูลเข้าสู่ระบบ</legend>
+                Username: <br>
+                <input type="text" pattern="[A-Za-z0-9_]+"> <br>
+                <i>ประกอบด้วยต้วยตัวเลข ตัวอักษร หรือ_ตั่งเเต่8ตัวขึ้นไป</i> <br>
+                Password: <br>
+                <input type="text" pattern=".{8,}"> <br>
+                <i>ประกอบด้วยอักขระอะไรก็ได้ตั่งเเต่8ตัวขึ้นไป</i> <br>
+            </Fieldset>
+
+            <Fieldset>
+                <legend>ข้อมูลทัวร์ที่ต้องการ</legend>
+                เเพคเก็จทัวร์:
+                <select>
+                    <option value="">ไทย</option>
+                    <option value="">มาเลเซีย</option>
+                    <option value="">สิงคโปร์</option>
+                    <option value="">อินโดนีเซีย</option>
+                    <option value="">เวียดนาม</option>
+                </select> <br>
+                วันที่เดินทาง:
+                <input type="date"> <br>
+                จำนวนผู้เดินทาง: <input type="number" min="1" max="10"> <br>
+                เน้นการท่องเที่ยวเเบบใด <br>
+                <label>
+                    <input type="checkbox" name="interest" value="sports"> ช๊อปปิ้ง
+                </label> <br>
+                <label>
+                    <input type="checkbox" name="interest" value="music"> ธรรมชาติ
+                </label> <br>
+                <label>
+                    <input type="checkbox" name="interest" value="reading"> ทะเล
+                </label> <br>
+            </Fieldset>
+
+            ยอมรับเงื่อนใขเเละข้อตกลง
+            <label> <input type="radio" checked name="radio">I agree </label>
+            <label><input type="radio" name="radio">I disagree</label>
+            <button>จอง</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>
