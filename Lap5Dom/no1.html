@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function func() {
+            let a = document.getElementById('a');
+            let b = document.getElementById('b');
+            let c = document.getElementById('c');
+
+            c.value = parseInt(a.value) + parseInt(b.value);
+
+            console.log(c.value)
+        }
+    </script>
+
+</head>
+
+<body>
+    <input type="text" id="a"> + <input type="text" id="b"> = <input type="text" id="c">
+    <input type="submit" value="go go" onclick="func()"></input>
+</body>
+
+</html>
